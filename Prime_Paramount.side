@@ -1,0 +1,162 @@
+{
+  "id": "b476ba22-488c-49b5-9802-844f7ce7f651",
+  "version": "2.0",
+  "name": "Prime / Paramount",
+  "url": "https://www.primevideo.com/offers/nonprimehomepage/",
+  "tests": [{
+    "id": "06fa3777-ef2f-4c21-bfcc-93a6bad86c96",
+    "name": "CINCUM",
+    "commands": [{
+      "id": "408cd416-bd05-403e-ae29-0cfecd8e830c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.primevideo.com/offers/nonprimehomepage/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ceb356b-496b-47a6-8c57-ede4a4875944",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c83761d1-5c08-470a-a003-2fc83e16e36b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iLtUZ-",
+      "targets": [
+        ["css=.iLtUZ-", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='pv-nav-container']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73cfddee-5a1b-4a0f-9be2-334b3edc23ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iLtUZ-",
+      "targets": [
+        ["css=.iLtUZ-", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='pv-nav-container']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a37caf6-7556-4961-944e-868df3d43bec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DVPAWebWidgetsCustomComponents_Grid__gridItem:nth-child(1) .DVPAWebWidgetsCustomComponents_Image__image",
+      "targets": [
+        ["css=.DVPAWebWidgetsCustomComponents_Grid__gridItem:nth-child(1) .DVPAWebWidgetsCustomComponents_Image__image", "css:finder"],
+        ["xpath=//img[@alt='Paramount Plus']", "xpath:img"],
+        ["xpath=//div[@id='CustomContainer']/div/div/div/div/div/div/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57422010-5578-4b86-b389-4169f8dae8bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iLtUZ-",
+      "targets": [
+        ["css=.iLtUZ-", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='pv-nav-container']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "429158b6-ccc4-4a00-b749-07fec39b4a21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iLtUZ-",
+      "targets": [
+        ["css=.iLtUZ-", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='pv-nav-container']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3be3c81d-113d-4e85-ab76-494882cc3c5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iLtUZ-",
+      "targets": [
+        ["css=.iLtUZ-", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='pv-nav-container']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd44f94f-6449-4aff-bd47-01c01ce9ff03",
+      "comment": "",
+      "command": "click",
+      "target": "id=pv-search-nav",
+      "targets": [
+        ["id=pv-search-nav", "id"],
+        ["name=phrase", "name"],
+        ["css=#pv-search-nav", "css:finder"],
+        ["xpath=//input[@id='pv-search-nav']", "xpath:attributes"],
+        ["xpath=//div[@id='pv-nav-container']/div/div[2]/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e474d61-d19b-4221-af47-a720c7a8c4bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=pv-search-nav",
+      "targets": [
+        ["id=pv-search-nav", "id"],
+        ["name=phrase", "name"],
+        ["css=#pv-search-nav", "css:finder"],
+        ["xpath=//input[@id='pv-search-nav']", "xpath:attributes"],
+        ["xpath=//div[@id='pv-nav-container']/div/div[2]/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "muito legal"
+    }, {
+      "id": "e4477cd0-8604-4e9c-a47d-cbac49884092",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pv-search-nav",
+      "targets": [
+        ["id=pv-search-nav", "id"],
+        ["name=phrase", "name"],
+        ["css=#pv-search-nav", "css:finder"],
+        ["xpath=//input[@id='pv-search-nav']", "xpath:attributes"],
+        ["xpath=//div[@id='pv-nav-container']/div/div[2]/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "20e83da1-28ed-4db5-b072-9baedaaf563f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Luna's Show",
+      "targets": [
+        ["linkText=Luna's Show", "linkText"],
+        ["css=.DXNI7M", "css:finder"],
+        ["xpath=//div[@id='a-page']/div[2]/main/div/div[5]/div[2]/div/article[14]/section/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/detail/0JFT2L23P12XDU71O5LD3IT2ZF/ref=atv_sr_fle_c_Tn74RA_14_1_14?sr=1-14&pageTypeIdSource=ASIN&pageTypeId=B09NT7KBWG&qid=1698404222910')]", "xpath:href"],
+        ["xpath=//article[14]/section/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1304d4d7-b880-4d3b-b856-64f954a9a718",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["06fa3777-ef2f-4c21-bfcc-93a6bad86c96"]
+  }],
+  "urls": ["https://www.primevideo.com/offers/nonprimehomepage/"],
+  "plugins": []
+}
